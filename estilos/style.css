@@ -291,6 +291,7 @@
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      margin-bottom: 4rem;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -299,6 +300,8 @@
           -ms-flex-align: center;
               align-items: center;
       height: 100%;
+      
+      
     }
     
     .cuerpoExp img {
@@ -318,13 +321,14 @@
     }
   
     .parrafoExp h4 {
-      margin-top: 20px;
-      padding: 10px;
+      margin: 20px 5px 0px 5px;
+      padding: 5px;
       color: black;
       font-family: 'Inter', sans-serif;
       font-weight: lighter;
       color: rgba(0, 0, 0, 0.514);
       text-align: center;
+      box-shadow: 30px 30px 50px rgb(174, 175, 175, 0.15);
     }
 
     .parrafoExp h2 {
@@ -416,6 +420,9 @@
 
     .videoContainer{
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
   @media (min-width: 1440px) {
@@ -430,11 +437,11 @@
     margin-top: 50px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 12px;
     border-bottom: hidden;
     border-top: 1px solid white;
   }
-  
+  /*botonesDeMenu*/
   .botonMenu {
     font-family: 'DM Sans', sans-serif;
     font-weight:200;
@@ -444,7 +451,48 @@
     padding: 10px 10px 10px 0px;
     margin-right: 30px;
   }
+  .botonMenuPort {
+    background-color: #0A515C;
+    opacity: 35%;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 30px;
+  }
   
+  .botonMenuAcerca {
+    background-color: #0A515C;
+    opacity: 35%;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 30px;
+  }
+
+  .botonMenuExp {
+    background-color: #0A515C;
+    opacity: 35%;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 30px;
+  }
+  .botonMenuWeb {
+    background-color: #0A515C;
+    opacity: 35%;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 30px;
+  }
+
+/*-----------------*/
+
+
   .botonMenu:hover {
     
     background-color: #0A515C;
@@ -509,6 +557,7 @@
     width:auto;
     height: 950px;
     
+    
   }
 
   .containerImg1{
@@ -518,6 +567,7 @@
     justify-content: center;
     position: relative; 
     overflow: hidden;
+    
    
   }
 
@@ -536,10 +586,9 @@
     top: -100%;
     height: 100%;
     box-sizing: border-box;
-    
-    
   }
-  
+
+
 .content1{
   display: flex;
   justify-content: center;
@@ -551,6 +600,7 @@
   font-size: 20px;
   padding: 0px 10px 50px 250px;
   text-align: start;
+  
 }
 
 .grillaImagenes .containerImg1 .content1 p {
@@ -571,6 +621,14 @@
   text-decoration: none;
   color: white;
 }
+
+.navegadorVideos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 20px 0 20px;
+}
+
 @media (max-width: 1440px){
 
   .opciones {
@@ -669,7 +727,7 @@
 
   .containerImg1{
    
-    margin: 50px auto;
+    margin: 25px auto;
     display: flex;
     justify-content: center;
     position: relative; 
@@ -798,6 +856,12 @@
   text-align: center;
   width: 95%;
   height: auto;
+}
+
+.videoContainer .top {
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 5px 10px 5px 10px;
 }
 
 .encabezado .parrafoPapiña p{
